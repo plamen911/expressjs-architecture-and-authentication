@@ -1,0 +1,19 @@
+{
+  "name": "expressjs-architecture-and-authentication",
+  "version": "1.0.0",
+  "description": "Architecture and Authentication",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plamen911/expressjs-architecture-and-authentication.git"
+  },
+  "author": "Plamen Markov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plamen911/expressjs-architecture-and-authentication/issues"
+  },
+  "homepage": "https://github.com/plamen911/expressjs-architecture-and-authentication"
+}
