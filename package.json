@@ -1,19 +1,36 @@
 {
   "name": "expressjs-architecture-and-authentication",
   "version": "1.0.0",
-  "description": "Architecture and Authentication",
+  "engines": {
+    "node": "6.2.x",
+    "npm": "3.9.x"
+  },
+  "description": "Express.js Architecture and Authentication",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && node app.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/plamen911/expressjs-architecture-and-authentication.git"
   },
   "author": "Plamen Markov",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/plamen911/expressjs-architecture-and-authentication/issues"
   },
-  "homepage": "https://github.com/plamen911/expressjs-architecture-and-authentication"
+  "homepage": "https://github.com/plamen911/expressjs-architecture-and-authentication",
+  "devDependencies": {
+    "standard": "^8.3.0"
+  },
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "cookie-parser": "1.4.3",
+    "express": "4.14.0",
+    "express-session": "1.14.1",
+    "mongoose": "4.6.5",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0",
+    "pug": "2.0.0-beta6"
+  }
 }
