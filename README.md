@@ -5,6 +5,7 @@ SoftUni Express.js Development Course - October 2016 - Architecture and Authenti
 `set NODE_ENV="development"`
 `set MONGO_DB="mongodb://localhost:27017/blogsystem"`
 - https://github.com/ivaylokenov/express-architecture
-
+- This type of architecture is per type architecture
+- You may check out per feature architecture too 
 
 

@@ -57,7 +57,7 @@ module.exports = {
           }
         })
         .catch((err) => {
-            res.render('users/login', {globalError: err})
+          res.render('users/login', {globalError: err})
         })
   },
 
