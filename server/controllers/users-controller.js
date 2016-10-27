@@ -9,6 +9,8 @@ module.exports = {
   create: (req, res) => {
     let user = req.body
 
+    // todo - check if username/email is unique
+
     if (user.password !== user.confirmPassword) {
       user.globalError = 'Passwords no not match!'
       res.render('users/register', user)
